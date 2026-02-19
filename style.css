@@ -1,0 +1,72 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Poppins", "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #f4f7f5, #e6efea);
+    color: #4f5b55;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+    color: #3f5a4a; /* muted green */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1.2rem 0 0.7rem;
+    color: #6f8f80; /* soft sage */
+}
+
+/* List */
+ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    background: #ffffff;
+    padding: 12px 20px;
+    margin: 6px 0;
+    border-radius: 12px;
+    text-align: center;
+    width: 220px;
+    color: #567067;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+/* Image */
+img {
+    width: 260px;
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 1.5rem 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    border: 3px solid #d7e6dd;
+}
+
+/* Final Thanks */
+h1:last-of-type {
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    color: #4a6559;
+}
